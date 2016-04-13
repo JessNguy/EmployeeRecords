@@ -51,7 +51,7 @@
             this.titleLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.Location = new System.Drawing.Point(12, 9);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(331, 50);
+            this.titleLabel.Size = new System.Drawing.Size(330, 50);
             this.titleLabel.TabIndex = 0;
             this.titleLabel.Text = "Employee Records";
             // 
@@ -196,6 +196,7 @@
             this.Controls.Add(this.titleLabel);
             this.Name = "mainForm";
             this.Text = "Add/Delete";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
